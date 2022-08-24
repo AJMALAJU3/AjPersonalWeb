@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {padding-top: 0%;
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    color: #505962;
+}
+.navbar {
+    padding-bottom: 0%;
+    padding-top: 0%;
+}
+header .nav {
+    display: flex;
+
+}
+header .nav li {
+    margin: 0 15px;
+}
+header .nav li:first-child{
+    margin-left: 0;
+}
+header .nav li:last-child{
+    margin-right: 0;
+}
+.navbar-brand {
+    padding-top: 0%;
+    height: 2rem;
+
+}
+.video-background {
+    padding-top: 0%;
+    
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(20, 7, 7, 0.9);
+
+}
+.caption {
+    float: left;
+    position: absolute;
+    top: 38%;
+    width: 100%;
+    color: rgb(243, 244, 245);
+
+}
+.caption h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+}
+.caption h3 {
+    font-size: 2rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+}
+.btn-lg {
+    border-width: medium;
+    border-radius: 0;
+    font-size: 1.1rem;
+    padding: .6rem 1.7rem;
+}
+.check {
+    width: 100%;
+    color: rgb(211, 226, 240);
+}
+.card{
+    padding: 1.5em .5em .5em;
+    border-radius: 2em;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+
+
+
+
+
+
+
+
+/*================ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+no media query  since this is the dafualt in brootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devicees (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (destops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large device (large desctops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+================*/
